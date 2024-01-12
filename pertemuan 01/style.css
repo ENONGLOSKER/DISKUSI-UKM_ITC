@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height: 100vh;
+}
+img{
+    width: 20%;
+}
+section{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 100vh;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+.container section:nth-child(1){
+    background-color: #A58EF5;
+}
+.container section:nth-child(2){
+    background-color: #b6469a;
+}
+.container section:nth-child(3){
+    background-color: #F5B48E;
+}
+.container section:nth-child(4){
+    background-color: #95bc62;
+}
+.container section:nth-child(5){
+    background-color: #64c3b6;
+}
